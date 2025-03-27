@@ -49,6 +49,7 @@ import { getCountdown } from './utils/countdown';
 import { predictExpiryDate } from './utils/predictExpiryDate';
 ChartJS.register(CategoryScale, LinearScale, BarElement, ChartTitle, ChartTooltip, Legend);
 
+//API
 const SPOONACULAR_KEY = process.env.REACT_APP_SPOONACULAR_KEY;
 const UNSPLASH_ACCESS_KEY = process.env.REACT_APP_UNSPLASH_ACCESS_KEY;
 
